@@ -89,6 +89,7 @@ export const socialMediaProfiles = [
   { title: 'Instagram', href: 'https://www.instagram.com/lafifastahdziq', icon: InstagramIcon },
   { title: 'Twitter', href: 'https://twitter.com/qutek_', icon: TwitterIcon },
   { title: 'GitHub', href: 'https://github.com/qutek', icon: GitHubIcon },
+  { title: 'Linkedin', href: 'https://www.linkedin.com/in/qutek', icon: LinkedinIcon },
   { title: 'UpWork', href: 'https://www.upwork.com/freelancers/~01457819fd57145bd1', icon: UpWorkIcon },
   { title: 'StackOverflow', href: 'https://stackoverflow.com/users/3436270/lafif-astahdziq', icon: StackOverflowIcon },
 ]
@@ -114,6 +115,7 @@ export function SocialMedia({
           <Link
             href={socialMediaProfile.href}
             target='_blank'
+            rel="me"
             aria-label={socialMediaProfile.title}
             className={clsx(
               'transition',
