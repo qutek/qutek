@@ -105,7 +105,7 @@ export function SocialMedia({
     <ul
       role="list"
       className={clsx(
-        'flex gap-x-10',
+        'flex gap-x-4 md:gap-x-10',
         invert ? 'text-white' : 'text-neutral-950',
         className,
       )}
